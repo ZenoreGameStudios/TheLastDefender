@@ -11,6 +11,11 @@
   <body class="template">
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <div id="loadingBox">
+        <div id="bgBar"></div>
+        <div id="progressBar"></div>
+        <p id="loadingInfo">Loading...</p>
+      </div>  
       <br>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
       <div class="title">The Last Defender</div>
